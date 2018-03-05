@@ -1,1 +1,1 @@
-export default () => console.log(`Hi, ${process.env}`);
+export default () => console.log(`Hi, ${process.env.USER || 'there'}!`);

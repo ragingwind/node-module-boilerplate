@@ -12,8 +12,14 @@
     "email": "ragingwind@gmail.com",
     "url": "https://ragingwind.me"
   },
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "devDependencies": {
+    "microbundle": "^0.4.4"
   }
 }
