@@ -1,0 +1,19 @@
+{
+  "name": "module-boilerplate",
+  "version": "1.0.0",
+  "description": "My usable node module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragingwind/node-module-boilerplate.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jimmy Moon",
+    "email": "ragingwind@gmail.com",
+    "url": "https://ragingwind.me"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
