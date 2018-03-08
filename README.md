@@ -9,9 +9,9 @@ npm install --save-dev next-pwa
 ```
 # Features
 
+- Generate `manifest.json` dynamically to serve without extra configuration
 - Support build `<ServiceWorker>` Components
 - Generate `sw.js` and `workbox.js` powered by `next-workbox-webpack-plugin`
-- Generate `manifest.json` serving without extra configuration
 - Support more cli options to build PWA like generator icons for PWA
 
 # Usage
