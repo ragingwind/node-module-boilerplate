@@ -13,13 +13,7 @@
     "url": "https://ragingwind.me"
   },
   "scripts": {
-    "build": "microbundle",
-    "dev": "microbundle watch"
   },
-  "source": "src/index.js",
-  "main": "dist/index.js",
-  "module": "dist/index.m.js",
-  "devDependencies": {
-    "microbundle": "^0.4.4"
+  "main": "index.js"
   }
 }

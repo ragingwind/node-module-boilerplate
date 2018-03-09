@@ -1,53 +1,19 @@
-# next-pwa
+# <%= nodeModule %>
 
-> Next.js plugin for [Progressive Web App](https://developers.google.com/web/progressive-web-apps/)
+> My usable node module
 
 # Install
 
 ```sh
-npm install --save-dev next-pwa
+npm install --save-dev <%= nodeModule %>
 ```
-# Features
-
-- Generate `manifest.json` dynamically to serve without extra configuration
-- Support build `<ServiceWorker>` Components
-- Generate `sw.js` and `workbox.js` powered by `next-workbox-webpack-plugin`
-- Support more cli options to build PWA like generator icons for PWA
 
 # Usage
 
 ```
-// ./pages/_document.js
-import Document, { Head, Main, NextScript } from 'next/document'
-import { ServiceWorker } from 'next-pwa'
+const <%= nodeModule %> = require('<%= nodeModule %>')
 
-export default class PWADocument extends Document {
-  render() {
-    return (
-      <html>
-        <Head>
-        </Head>
-        <body>
-          <Main />
-          <ServiceWorker />
-          <NextScript />
-        </body>
-      </html>
-    )
-  }
-}
-```
-
-# Configuring Next.js
-
-```sh
-const withPWA = require('next-pwa')
-
-module.exports = withPWA({
-  webpack(config, options) {
-    return config
-  }
-})
+<%= nodeModule %>()
 ```
 
 # License
