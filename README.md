@@ -5,17 +5,21 @@
 # Install
 
 ```sh
+yarn add <%= nodeModule %>
+
+or
+
 npm install --save-dev <%= nodeModule %>
 ```
 
 # Usage
 
 ```
-const <%= nodeModule %> = require('<%= nodeModule %>')
+import <%= nodeModule %> from '<%= nodeModule %>'
 
 <%= nodeModule %>()
 ```
 
 # License
 
-MIT @ [Jimmy Moon](https://ragingwind.me)
+MIT @ [Jimmy Moon](https://jimmy.im)
