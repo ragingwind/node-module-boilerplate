@@ -1,7 +1,7 @@
 {
-  "name": "module-boilerplate",
+  "name": "node-module-boilerplate",
   "version": "1.0.0",
-  "description": "My usable node module",
+  "description": "My node module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ragingwind/node-module-boilerplate.git"
@@ -10,10 +10,13 @@
   "author": {
     "name": "Jimmy Moon",
     "email": "ragingwind@gmail.com",
-    "url": "https://ragingwind.me"
+    "url": "https://jimmy.im"
   },
   "scripts": {
+    "test": "jest"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^24.9.0"
   }
 }
